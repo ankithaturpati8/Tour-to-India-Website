@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR to INDIA</title>
+    <Link rel="stylesheet" href="home.css"></link>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">TOUR TO INDIA</h1>
+        <ul class="nav-links">
+            <li><a href="#"></a>HOME</li>
+            <li><a href="packages.html" style="color:black;">PACKAGES</a></li>
+            <li><a href="gallery.html" style="color: black;">GALLERY</a></li>
+            <li><a href="about.html" style="color: black;">ABOUT</a></li>
+            <li class="ctn"><a href="#"></a>CONTACT</li>
+        </ul>
+        <img src="menu.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>TOUR TO INDIA</h1>
+            <div class="line"></div>
+            <h2>Discover India: Where Every Step is a Journey Through Culture</h2>
+            <a href="about.html" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>SPECIAL PACKAGES</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Temple.jpg" alt="">
+                <h4>PILIGRIMAGE</h4>
+                <P>India is famous for multiple religions and even for temples. Let's get a pligrimage package</P>
+                <a href="piligrimage.html" class="ctn">Learn More</a>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="adventure.jpg" alt="">
+                    <h4>ADVENTURES</h4>
+                    <P>Are you ready for adventures. Let's enjoy life with adventures</P>
+                    <a href="adventure.html" class="ctn">Learn More</a>
+                </div>
+        </div>
+    </section>
+    <script>
+        const menubtn=document.querySelector('.menu-btn')
+        const navlinks= document.querySelector('.nav-links')
+
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <section class="footer">
+    <footer style="text-align: center;">
+        <a href="tourtoindia@gmail.com" style="color: whitesmoke;">Email: TourToIndia</a><br>
+        <a href="9392459002" style="color: whitesmoke;">Contact us</a><br>
+        <a href="7288961249" style="color: whitesmoke;">whatsapp us</a><br>
+        <p style="color: whitesmoke;">&copy; 2024 Tour To India. All rights reserved</p>
+    </footer>
+    </section>
+</body>
+</html>
